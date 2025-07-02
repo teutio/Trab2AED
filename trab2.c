@@ -16,7 +16,6 @@ void impressao(int tabuleiro[], int n){
                     printf("R ");
                 else
                     printf("- ");
-
             }
             printf("\n");
         }
