@@ -55,7 +55,7 @@ int verifica(int linha, int coluna, int tabuleiro[]){ // funcao que verifica se 
 }
 
 
-void rainha(int tabuleiro[], int n, int linha){ // funcao recursiva que posiciona uma rainha em uma linha, imprime a solução caso o tabuleiro esteja completo
+void rainha(int tabuleiro[], int n, int linha){ // funcao recursiva que posiciona uma rainha
     if(linha == n){ // se todas as rainhas foram colocadas, imprime a solucao
         sol++;
         printf("Solucao No %d encontrada:\n", sol);
